@@ -37,6 +37,16 @@
       let layers = []; // Array to store layers
       let activeLayerIndex = 0; // Index of the active layer
 
+
+      // Attach layer functions to buttons
+      addLayerButton.addEventListener("click", addLayer);
+      removeLayerButton.addEventListener("click", removeLayer);
+
+      // Attach layer selection
+      layerSelect.addEventListener("change", (event) => {
+	  setActiveLayer(parseInt(event.target.value));
+      });
+
       function startDrawing(e) {
 	  isDrawing = true;
 	  draw(e);
