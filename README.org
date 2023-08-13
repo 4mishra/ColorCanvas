@@ -1,6 +1,9 @@
 ** Overview
 ColorCanvas is a user-friendly and engaging drawing app that empowers users to unleash their creativity and express themselves through digital art. The app provides a seamless and intuitive platform for users of all ages and skill levels to create beautiful artworks using a variety of tools, colors, and features. From doodles to intricate designs, ColorCanvas is designed to be a canvas for artistic exploration and expression.
 
+** Demonstration
+Milestone 1
+[[https://github.com/4mishra/ColorCanvas/blob/main/milestone/paint_with_different_brush_size_and_color.gif]]
 ** Key Features:
 
     **Brush Variety**: ColorCanvas offers a diverse range of brush types and sizes, allowing users to experiment with different strokes and textures to achieve their desired artistic effects.
