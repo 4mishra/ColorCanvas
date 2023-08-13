@@ -26,12 +26,18 @@
 	 <button id="addLayer">Add Layer</button>
 	<button id="removeLayer">Remove Layer</button>
 	<select id="layerSelect"></select>
+
+	<button id="clearCanvas">Clear Canvas</button>
     </div>
     <script>
       const canvas = document.getElementById("canvas");
       const context = canvas.getContext("2d");
       const brushSizeInput = document.getElementById("brushSize");
       const brushColorInput = document.getElementById("brushColor");
+      const clearCanvasButton = document.getElementById("clearCanvas");
+
+      // Attach clear canvas function to button
+      clearCanvasButton.addEventListener("click", clearCanvas);
 
       let isDrawing = false;
       let layers = []; // Array to store layers
