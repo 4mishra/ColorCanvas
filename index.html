@@ -52,6 +52,7 @@
 	    brushTexture = brushTextureSelect.value;
             
             context.lineWidth = brushSize;
+	    // context.lineWidth = brushSize / zoomLevel; // Adjust line width 
             context.lineCap = "round";
             context.strokeStyle = brushColor;
 
