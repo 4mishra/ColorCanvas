@@ -1,0 +1,30 @@
+** Overview
+ColorCanvas is a user-friendly and engaging drawing app that empowers users to unleash their creativity and express themselves through digital art. The app provides a seamless and intuitive platform for users of all ages and skill levels to create beautiful artworks using a variety of tools, colors, and features. From doodles to intricate designs, ColorCanvas is designed to be a canvas for artistic exploration and expression.
+
+** Key Features:
+
+    **Brush Variety**: ColorCanvas offers a diverse range of brush types and sizes, allowing users to experiment with different strokes and textures to achieve their desired artistic effects.
+
+    **Color Palette**: An extensive color palette gives users the freedom to choose from a wide spectrum of colors, shades, and gradients to bring their creations to life.
+
+    **Layer Support**: The app enables users to work with multiple layers, providing enhanced control over composition and the ability to create complex artworks with ease.
+
+    **Undo/Redo**: A seamless undo and redo functionality ensures that users can easily correct mistakes or experiment with different artistic choices without fear.
+
+    **Zoom and Pan**: Users can zoom in and out of their canvas to work on intricate details, and a pan feature enables them to navigate larger artworks with precision.
+
+    **Eraser and Clear Canvas**: Besides brushes, an eraser tool allows users to precisely remove parts of their artwork. Additionally, a clear canvas option offers a fresh start for new creations.
+
+    **Save and Share**: Users can save their artworks to their device's gallery and share them directly from the app to social media platforms or messaging apps.
+
+    **Drawing Effects**: ColorCanvas offers a variety of drawing effects such as watercolor, oil paint, and pencil sketch, allowing users to experiment with different artistic styles.
+
+    **Text and Annotations**: Users can add text and annotations to their artworks, making the app versatile for both drawings and graphic design projects.
+
+    **Custom Brushes**: Advanced users can create and customize their own brushes, opening up endless possibilities for unique creations.
+
+    **Community and Gallery**: A built-in community and gallery feature enables users to share their artworks, view others' creations, and engage in creative discussions.
+
+    **Offline Mode**: ColorCanvas allows users to create and edit artworks even without an internet connection, ensuring a seamless and uninterrupted creative experience.
+
+ColorCanvas aims to be the go-to drawing app for individuals seeking a digital outlet for their artistic talents. With a user-centric approach, a wide array of features, and a visually pleasing interface, ColorCanvas encourages users to explore their creativity and create captivating digital art pieces.
