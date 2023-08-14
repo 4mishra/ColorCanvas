@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Canvas</title>
     <style>
       canvas {
-	  border: 1px solid black;
+        border: 1px solid black;
       }
     </style>
     <script src="lib/twind.style.js"></script>
@@ -14,28 +14,34 @@
   <body>
     <div class="flex">
       <div class="w-900">
-	<!-- Content for the first column ( drawing screen ) -->
-	
-	<canvas id="canvas" width="800" height="600"></canvas>
+        <!-- Content for the first column ( drawing screen ) -->
+
+        <canvas id="canvas" width="800" height="600"></canvas>
       </div>
       <div class="flex-1">
-	<!-- Content for the second column ( tools palette ) -->
-	
-	<label for="brushSize">Brush Size:</label>
-	<input type="range" id="brushSize" min="1" max="20" value="5">
-	<input type="color" id="brushColor" value="#000000">
+        <!-- Content for the second column ( tools palette ) -->
 
-	<label for="brushTexture">Brush Texture:</label>
-	<select id="brushTexture">
-	  <option value="texture1">Texture 1</option>
-	  <option value="texture2">Texture 2</option>
-	  <!-- Add more texture options here -->
-	</select>
-	<button id="addLayer">Add Layer</button>
-	<button id="removeLayer">Remove Layer</button>
-	<select id="layerSelect"></select>
+        <div>
+          <label for="brushSize">Brush Size:</label>
+          <input type="range" id="brushSize" min="1" max="20" value="5" />
+          <input type="color" id="brushColor" value="#000000" />
+        </div>
 
-	<button id="clearCanvas">Clear Canvas</button>
+        <div>
+          <label for="brushTexture">Brush Texture:</label>
+          <select id="brushTexture">
+            <option value="texture1">Texture 1</option>
+            <option value="texture2">Texture 2</option>
+            <!-- Add more texture options here -->
+          </select>
+        </div>
+
+        <div>
+          <button id="addLayer">Add Layer</button>
+          <button id="removeLayer">Remove Layer</button>
+          <select id="layerSelect"></select>
+        </div>
+        <div><button id="clearCanvas">Clear Canvas</button></div>
       </div>
     </div>
     <script type="module" src="app.js"></script>
