@@ -6,6 +6,7 @@ const brushSizeInput = document.getElementById("brushSize");
 const addLayerButton = document.getElementById("addLayer");
 const removeLayerButton = document.getElementById("removeLayer");
 const brushColorInput = document.getElementById("brushColor");
+const brushTextureSelect = document.getElementById("brushTexture");
 const clearCanvasButton = document.getElementById("clearCanvas");
 
 // Attach clear canvas function to button
