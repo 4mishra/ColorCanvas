@@ -1,5 +1,5 @@
 // Function to add a new layer
-function addLayer() {
+export function addLayer() {
     layers.push(document.createElement("canvas"));
     layers[layers.length - 1].width = canvas.width;
     layers[layers.length - 1].height = canvas.height;
@@ -8,7 +8,7 @@ function addLayer() {
 }
 
 // Function to remove the active layer
-function removeLayer() {
+export function removeLayer() {
     if (layers.length > 1) {
         layers.splice(activeLayerIndex, 1);
         layerSelect.remove(activeLayerIndex);

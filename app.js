@@ -1,3 +1,4 @@
+import { addLayer, removeLayer } from './layer.js';
 
 const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
