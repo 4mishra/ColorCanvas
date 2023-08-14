@@ -1,0 +1,35 @@
+* Clearing Canvas in HTML
+
+** Create Canvas Element
+   Start by creating a canvas element in your HTML. Give it an `id` for easy reference in your JavaScript code.
+   #+BEGIN_SRC html
+   <canvas id="myCanvas" width="400" height="400"></canvas>
+   #+END_SRC
+
+** Get Canvas Context
+   Obtain the 2D rendering context of the canvas using JavaScript.
+   #+BEGIN_SRC javascript
+   const canvas = document.getElementById('myCanvas');
+   const context = canvas.getContext('2d');
+   #+END_SRC
+
+** Clear Canvas
+   To clear the canvas, you can use the `clearRect` method of the 2D context. This method erases the entire canvas or a specific rectangular area.
+   #+BEGIN_SRC javascript
+   function clearCanvas() {
+     context.clearRect(0, 0, canvas.width, canvas.height);
+   }
+   #+END_SRC
+
+** Call Clearing Function
+   You can call the `clearCanvas` function whenever you want to clear the canvas.
+   #+BEGIN_SRC javascript
+   // Call the function to clear the canvas
+   clearCanvas();
+   #+END_SRC
+
+By using the `clearRect` method with coordinates `(0, 0)` for the starting point and `canvas.width` and `canvas.height` for the width and height, respectively, you ensure the entire canvas is cleared. Adjust these values if you want to clear only a specific area.
+
+Remember, clearing the canvas doesn't "undo" previous drawings—it simply makes the canvas area transparent. You'll need to redraw any desired elements after clearing.
+
+For more complex scenarios, you can combine canvas clearing with other drawing operations to create dynamic and interactive graphics.
