@@ -3,6 +3,8 @@ import { addLayer, removeLayer } from './layer.js';
 const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
 const brushSizeInput = document.getElementById("brushSize");
+const addLayerButton = document.getElementById("addLayer");
+const removeLayerButton = document.getElementById("removeLayer");
 const brushColorInput = document.getElementById("brushColor");
 const clearCanvasButton = document.getElementById("clearCanvas");
 
