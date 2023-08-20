@@ -10,6 +10,9 @@ const removeLayerButton = document.getElementById("removeLayer");
 const brushColorInput = document.getElementById("brushColor");
 const brushTextureSelect = document.getElementById("brushTexture");
 const clearCanvasButton = document.getElementById("clearCanvas");
+const dropdownButton = document.getElementById('dropdown-btn');
+const dropdownMenu = document.getElementById('dropdown-menu');
+
 
 function clearCanvas() {
     context.clearRect(0, 0, canvas.width, canvas.height);
@@ -17,6 +20,10 @@ function clearCanvas() {
 
 // Attach clear canvas function to button
 clearCanvasButton.addEventListener("click", clearCanvas);
+
+dropdownButton.addEventListener('click', () => {
+    dropdownMenu.classList.toggle('hidden');
+});
 
 let isDrawing = false;
 let layers = []; // Array to store layers
