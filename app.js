@@ -1,5 +1,7 @@
 import { addLayer, removeLayer } from './layer.js';
 
+
+
 const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
 const brushSizeInput = document.getElementById("brushSize");
@@ -8,6 +10,10 @@ const removeLayerButton = document.getElementById("removeLayer");
 const brushColorInput = document.getElementById("brushColor");
 const brushTextureSelect = document.getElementById("brushTexture");
 const clearCanvasButton = document.getElementById("clearCanvas");
+
+function clearCanvas() {
+    context.clearRect(0, 0, canvas.width, canvas.height);
+}
 
 // Attach clear canvas function to button
 clearCanvasButton.addEventListener("click", clearCanvas);
